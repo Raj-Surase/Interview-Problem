@@ -1,3 +1,17 @@
+<h2>Contact Details</h2>
+
+<br>
+
+<a href="mailto:rajsurase3@gmail.com"><img src="assets/gmail.png" alt="Email" width="36" height="36"></a>
+
+<a href="https://twitter.com/Raj-Surase"><img src="assets/twitter.png" alt="Twitter" width="36" height="36" style="margin-right: 10px;"></a>
+
+<a href="tps://www.linkedin.com/in/raj-surase/"><img src="assets/linkedin.png" alt="LinkedIn" width="36" height="36" style="margin-right: 10px;"></a>
+
+<a href="https://www.linkedin.com/in/raj-surase/"><img src="assets/portfolio.png" alt="Portfolio" width="36" height="36" style="margin-right: 10px;"></a>
+
+<br>
+
 <h2><b>This was the problem statement that I got in the interview of the SkillCrunch pvt. ltd. as a flutter developer.</b></h2>
 
 <h3><b>I created the solution with some more functionalites than I got in problem statement and design for example -</b></h3>
