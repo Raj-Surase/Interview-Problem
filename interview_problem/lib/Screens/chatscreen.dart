@@ -1,5 +1,5 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../constants.dart';
 
 class ChatScreen extends StatelessWidget {
@@ -16,33 +16,33 @@ class ChatScreen extends StatelessWidget {
             Container(
               height: 200, // Increase the height of the TextField
               child: TextField(
-                  controller: _controller,
-                  keyboardType: TextInputType.multiline,
-                  expands: true,
-                  textAlignVertical: TextAlignVertical.top,
-                  maxLines: null, // Allows multiple lines
-                  decoration: InputDecoration(
-                    filled: true,
-
-                    fillColor: lightReddish,
-                    border: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: darkGrey,
-                      ),
-                      borderRadius: BorderRadius.circular(10),
+                controller: _controller,
+                keyboardType: TextInputType.multiline,
+                expands: true,
+                textAlignVertical: TextAlignVertical.top,
+                maxLines: null, // Allows multiple lines
+                decoration: InputDecoration(
+                  filled: true,
+                  fillColor: lightReddish,
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: darkGrey,
                     ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                        color: darkGrey,
-                      ),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    labelText: 'Enter a message',
-                    labelStyle: smallText(color: offWhite),
-                    floatingLabelBehavior: FloatingLabelBehavior
-                        .never, // Remove the label when it floats
+                    borderRadius: BorderRadius.circular(10),
                   ),
-                  style: smallText(color: Colors.white)),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: darkGrey,
+                    ),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  labelText: 'Enter a message',
+                  labelStyle: smallText(color: offWhite),
+                  floatingLabelBehavior: FloatingLabelBehavior
+                      .never, // Remove the label when it floats
+                ),
+                style: smallText(color: Colors.white),
+              ),
             ),
             SizedBox(height: 16),
             ElevatedButton(
@@ -69,7 +69,7 @@ class ChatScreen extends StatelessWidget {
                 style: buttonText(color: darkGrey),
               ),
               style: ButtonStyle(
-                foregroundColor: WidgetStatePropertyAll(lightGrey),
+                foregroundColor: MaterialStateProperty.all(lightGrey),
               ),
             ),
           ],
